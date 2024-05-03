@@ -9,7 +9,7 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 const int DHTSensingDelay = 2100;
-// 스펙 상 2초에 1번씩 작동
+// 스펙 상 2초에 1번씩 작동하는것이 맞으나 너무 빈번하므로 5초로 세팅
 
 float readTemp();
 float readHum();
